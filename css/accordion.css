@@ -1,0 +1,52 @@
+/*==================   Accordion    ======================*/
+.accordion {
+  margin-top: -20px; }
+  .accordion div {
+    padding-bottom: 35px; }
+
+.ui-accordion-header {
+  cursor: pointer;
+  position: relative;
+  color: #00b8d4;
+  outline: none;
+  padding: 30px 50px 30px 0;
+  border-top: 1px solid #c1c1c1;
+  -moz-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s all ease; }
+  .ui-accordion-header:before {
+    content: '\f067';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -22px;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    font: 400 17px/44px "FontAwesome";
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-transition: 0.3s all ease;
+    -o-transition: 0.3s all ease;
+    -webkit-transition: 0.3s all ease;
+    transition: 0.3s all ease;
+    border: 1px solid #c1c1c1;
+    color: #c1c1c1;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%; }
+  .ui-accordion-header:first-child {
+    border-top: none; }
+  .ui-accordion-header.last {
+    border-bottom: 1px solid #c1c1c1; }
+  .ui-accordion-header:hover {
+    color: #ff5722; }
+
+.ui-accordion-header-active {
+  padding-bottom: 20px; }
+  .ui-accordion-header-active:before {
+    content: '\f068';
+    border-color: #ff5722;
+    color: #ff5722; }
