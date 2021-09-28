@@ -1270,6 +1270,15 @@ p + .marked-list {
     .social-list2 a:hover {
       background: #2d457c;
       color: #ffffff; }
+      .social-list2 a.fa-twitter:hover {
+        background: #1DA1F2;
+        color: #ffffff; }
+        .social-list2 a.fa-facebook:hover {
+          background: #4267B2 #0077b5;
+          color: #ffffff; }
+          .social-list2 a.fa-linkedin-in:hover {
+            background: #0077b5;
+            color: #ffffff; }
   @media (max-width: 479px) {
     .social-list2 li + li {
       margin-left: 10px; }
